@@ -1,0 +1,112 @@
+
+A variable in programming is like a container where we 
+can store the data. 
+
+Why do we use variables? 
+
+1. Storage 
+    Variables allow us to store data that we can use and modify 
+    later. 
+2. Readability
+    Makes our code easier to understand, debug and find what the 
+    data represents. 
+    * debug mostly means going over the code again for the purpose of 
+    understanding or finding the mistake. 
+3. Reusability
+    Once a value is sotred in a variable, you can use that variable 
+    multiple times in different parts of your code. 
+
+Formula Of The Variable Creation 
+    variablename = value 
+
+Naming A Variable
+    Rules: 
+        * Variable name cannot start with a number. 
+        * It cannot have spaces. 
+        * It can only contain alphanumeric characters and underscore(_).
+            *alphanumeric: numbers and letters
+        * Variable names are case sensitive which means 
+        `age` is not same as `Age`. 
+
+Naming Conventions
+    * Convention -> how do you name the variable. 
+
+There are 4 different types of naming conventions:
+    
+    1. Camel Case 
+        Naming starts with a lower case and capitalizes each word after that. 
+        Ex: firstName, lastName, areaCode etc. 
+        Notes: Most Of java, javascript users
+
+    2. Pascal Case 
+        Naming starts with an upper case and capitalizes each word after that. 
+        Ex: FirstName, LastName, AreaCode etc. 
+
+    3. Snake Case 
+        Each word in a variable name is separated by underscore (_). 
+        Ex: first_name, last_name, area_code etc. 
+        Note:Most of python users.
+    
+    4. Kebab Case 
+        Each word in a variable name is separated by hyphen (-). 
+        Ex: first-name, last-name, area-code etc. 
+        
+
+NOTE: When creating a variable type of variable is auto understood 
+by python. 
+
+Type of Numerical Variables
+    1. Integer: Represents whole numbers. 
+       Ex: age = 25
+    2. Float: Represents real numbers.(Numbers with decimal points.)
+       Ex: weight= 190.4 , avg = 8.0
+    3. Complex: Represents complex numbers that has both 
+       imaginary and real parts. 
+       Ex: 5 + 4j -> 5 is the real part 4j is the imaginary part. 
+
+Type Function
+    The type() function is a built-in Python function 
+    used to determine the data type of a variable. 
+        Ex: a = 10
+            print(type(a)) #Output <class 'int'> 
+            b = 10.1
+            print(type(b)) #Output <class 'float'> 
+    Importance: 
+        Helps debugging
+        Useful when learning because it helps you to 
+        understand how python works with data types. 
+
+Creating Multiple Variables In Single Line 
+    We can define multiple variable on a single line, 
+    by separating them with commas(,). 
+        Syntax: a,b,c = 1.1 , 1 , "h"        
+
+    Advantage: 
+        Reduce the line of your code.
+        More readable
+        Compact code
+
+Assigning Multiple Variables With A Same Value 
+    Ex: a = b = c = d = 5
+        #in the line above variable a, b, c and d will 
+        #be assigned with a value 5 and type of all Variables
+        #will be integer. 
+
+ReAssignment in Python 
+    After variables assigned with a value, we can also
+    assign a new value to them. 
+    Ex: var1 = 6
+        var1 = "d"
+        var1 = 1.0
+        
+
+
+
+
+
+
+
+
+
+
+
